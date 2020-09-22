@@ -89,72 +89,117 @@ header {
     border-bottom: ridge 3px #d16c61; }
   .main_index .main_index_section-1 {
     padding: 2rem 1rem;
-    margin-bottom: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; }
-    .main_index .main_index_section-1 .main_index_section-1_title .main_index_section-1_text {
-      margin: auto; }
-    .main_index .main_index_section-1 .main_index_section-1_title .main_index_section-1_link {
-      margin: 1rem 20%; }
-      .main_index .main_index_section-1 .main_index_section-1_title .main_index_section-1_link a {
-        padding: 3px;
-        border-bottom-right-radius: 0.5rem;
-        border-right: ridge 3px #d16c61; }
-    .main_index .main_index_section-1 .main_index_section-1_img img {
-      margin: auto;
+    margin-bottom: 1rem; }
+    .main_index .main_index_section-1 .main_index_section-1_title h1 {
+      border-left: solid 1px white;
+      padding-left: 1rem; }
+    .main_index .main_index_section-1 .main_index_section-1_info .main_index_section-1_info-text {
+      margin-left: 2rem; }
+      .main_index .main_index_section-1 .main_index_section-1_info .main_index_section-1_info-text .main_index_section-1_info-text_link {
+        margin: 1rem 0; }
+        .main_index .main_index_section-1 .main_index_section-1_info .main_index_section-1_info-text .main_index_section-1_info-text_link a {
+          border-right: inset 3px #d16c61;
+          border-bottom-right-radius: 0.5rem;
+          padding: 3px 5px; }
+    .main_index .main_index_section-1 .main_index_section-1_info .main_index_section-1_info-img img {
       border-radius: 0.5rem; }
-  .main_index .main_index_section-3 .main_index_section-3_title1 span {
-    font-size: 1.7rem;
-    padding-left: 15%; }
-  .main_index .main_index_section-3 .main_index_section-3_title2 {
-    margin: 0.5rem; }
-    .main_index .main_index_section-3 .main_index_section-3_title2 h2 {
-      text-decoration: underline;
-      text-decoration-color: white;
-      inline-size: 4px;
-      line-height: 40px; }
-  .main_index .main_index_section-3 .main_index_section-3_txt {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; }
-    .main_index .main_index_section-3 .main_index_section-3_txt .main_index_section-3_txt-item {
+  .main_index .main_index_section-2 {
+    margin: 3rem 0;
+    border-top: dotted 1px white;
+    padding: 1rem; }
+    .main_index .main_index_section-2 p {
+      padding: 0 1rem; }
+    .main_index .main_index_section-2_part1, .main_index .main_index_section-2_part2 {
+      margin-bottom: 1.5rem;
+      max-width: 430px; }
+      .main_index .main_index_section-2_part1 .main_index_section-2_title, .main_index .main_index_section-2_part2 .main_index_section-2_title {
+        margin: 0 2rem; }
+        .main_index .main_index_section-2_part1 .main_index_section-2_title h2, .main_index .main_index_section-2_part2 .main_index_section-2_title h2 {
+          width: fit-content;
+          margin: 5px;
+          padding: 0.5rem; }
+  .main_index .main_index_section-3 {
+    border-top: 8px inset black;
+    margin: 2rem 0; }
+    .main_index .main_index_section-3 .main_index_section-3_title1 span {
+      font-size: 1.7rem;
+      padding-left: 15%; }
+    .main_index .main_index_section-3 .main_index_section-3_img {
+      padding: 0 1rem;
+      border-bottom: 8px dotted black; }
+      .main_index .main_index_section-3 .main_index_section-3_img img {
+        border-radius: 0.5rem; }
+    .main_index .main_index_section-3 .main_index_section-3_title2 {
+      margin: 0.5rem; }
+      .main_index .main_index_section-3 .main_index_section-3_title2 h2 {
+        text-decoration: underline;
+        text-decoration-color: white;
+        inline-size: 4px;
+        line-height: 40px; }
+    .main_index .main_index_section-3 .main_index_section-3_txt {
       display: flex;
-      justify-content: space-between;
-      margin: 1rem;
-      min-width: 260px;
-      max-width: 330px;
-      border-right: 1px dotted;
-      border-bottom: 1px dotted;
-      border-color: ivory; }
-      .main_index .main_index_section-3 .main_index_section-3_txt .main_index_section-3_txt-item p {
-        width: 160px; }
+      flex-wrap: wrap;
+      justify-content: space-around; }
+      .main_index .main_index_section-3 .main_index_section-3_txt .main_index_section-3_txt-item {
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem;
+        min-width: 260px;
+        max-width: 330px;
+        border-right: 1px dotted;
+        border-bottom: 1px dotted;
+        border-color: ivory; }
+        .main_index .main_index_section-3 .main_index_section-3_txt .main_index_section-3_txt-item p {
+          width: 160px; }
   .main_index .main_index_section-4 {
+    border-top: double black 8px;
+    padding-top: 1rem;
+    margin: 1rem 0;
     display: flex;
     justify-content: space-evenly;
     align-content: center; }
     .main_index .main_index_section-4 .main_index_section-4_item {
       text-align: center; }
 
-footer {
-  margin: auto; }
-  footer .footer_social {
-    display: flex;
-    margin-top: 1rem;
-    justify-content: center; }
-    footer .footer_social a {
-      padding: 1rem;
-      border: none; }
-  footer .footer_copyright {
-    text-align: center; }
-    footer .footer_copyright h3 {
-      font-size: 0.8rem; }
+footer .footer_social {
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: center;
+  font-size: 1.5rem; }
+  footer .footer_social a {
+    padding: 1rem;
+    border: none; }
+
+footer .footer_copyright {
+  text-align: center; }
+  footer .footer_copyright h3 {
+    font-size: 0.5rem; }
 
 @media (min-width: 700px) {
   * {
     font-size: 105%; }
   .main_index_section-1 {
     margin-bottom: 3rem; }
+    .main_index_section-1 .main_index_section-1_title {
+      margin-left: 15%; }
+      .main_index_section-1 .main_index_section-1_title br {
+        display: none; }
+    .main_index_section-1 .main_index_section-1_info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly; }
+      .main_index_section-1 .main_index_section-1_info .main_index_section-1_info-img img {
+        border-radius: 0.5rem; }
+  .main_index_section-2 {
+    padding: 2rem; }
+    .main_index_section-2 p {
+      padding: 0 2rem; }
+    .main_index_section-2_part1 {
+      margin-left: 15%; }
+    .main_index_section-2_part2 {
+      margin-left: 30%; }
+    .main_index_section-2_txt {
+      border-left: white 1px solid; }
   .main_index_section-3 {
     margin-top: 2rem; }
     .main_index_section-3 .main_index_section-3_title1 {
@@ -174,6 +219,8 @@ footer {
 @media (min-width: 1200px) {
   * {
     font-size: 112.5%; }
+  .main_index_section-2_part2 {
+    margin-left: 45%; }
   .main_index_section-3 .main_index_section-3_txt .main_index_section-3_txt-item {
     margin: 4rem;
     width: 320px; }
